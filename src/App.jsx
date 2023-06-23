@@ -1,4 +1,4 @@
-import Demo from "./components/Demo";
+import Article from "./components/Article";
 import Hero from "./components/Hero";
 import "./App.css";
 
@@ -11,7 +11,7 @@ function App() {
 
       <div className="app">
         <Hero />
-        <Demo />
+        <Article />
       </div>
     </main>
   );
