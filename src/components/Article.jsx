@@ -23,7 +23,7 @@ const Article = () => {
     if (articlesFromLocalStorage) {
       setAllArticles(articlesFromLocalStorage);
     }
-  }, []);
+  }, []);  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
